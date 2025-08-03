@@ -7,7 +7,6 @@ function agregarAmigo() {
     }
     amigos.push(nombre);
     document.getElementById("amigo").value = "";
-    console.log(amigos);
     mostrarAmigos();
 }
 
